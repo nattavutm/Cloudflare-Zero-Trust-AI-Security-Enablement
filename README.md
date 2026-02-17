@@ -40,13 +40,15 @@ By the end of this workshop, you will be able to:
 - ✅ Configure automated alerts for policy violations
 - ✅ Leverage Browser Isolation for secure access to approved AI tools
 
-## Requirements
+## Pre-requirements (Before the Workshop)
 
-- A computer with a modern web browser
-- An active Internet connection
-- A free [Cloudflare Account](https://dash.cloudflare.com/sign-up)
-- An email address for identity verification
-- A mobile device for 2FA (recommended)
+To get the most out of this hands-on lab, please complete these steps **before** the session:
+1. **Cloudflare Account**: [Sign up](https://dash.cloudflare.com/sign-up) for a free account if you don't have one.
+2. **Account Verification**: Ensure your email is verified (check your inbox for a verification link).
+3. **Local Admin Rights**: Ensure you have permission to install software (Cloudflare WARP) on your computer.
+4. **Mobile Device**: Have a smartphone ready for Email OTP or 2FA authentication.
+
+## System Requirements
 
 ## Architecture Overview
 
