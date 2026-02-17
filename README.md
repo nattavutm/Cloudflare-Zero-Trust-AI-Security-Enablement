@@ -95,27 +95,6 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 - Implement identity-based and time-based access
 - Verify the secure isolation environment
 
-## Project Structure
-
-```text
-cloudflare-ai-security-workshop/
-├── README.md                           # Workshop guide (This file)
-├── QUICK-REFERENCE.md                  # Quick commands and links
-├── docs/                               # Detailed lab instructions
-│   ├── 01-zerotrust-setup.md
-│   ├── 02-block-ai-services.md
-│   ├── 03-dlp-policies.md
-│   ├── 04-monitoring.md
-│   └── 05-approved-access.md
-├── configs/                            # Configuration templates
-│   ├── gateway-policies.json
-│   ├── dlp-profiles.json
-│   └── warp-config.xml
-└── scripts/                            # Helper scripts
-    ├── deploy-policies.sh
-    └── test-blocking.sh
-```
-
 ## Troubleshooting
 
 ### WARP Client Connectivity
@@ -131,12 +110,6 @@ warp-cli registration new
 warp-cli connect
 ```
 
-### Policy Issues
-- **Precedence:** Ensure rules are ordered correctly (lower number = higher priority).
-- **Scope:** Verify the user is not in an exclusion group.
-- **Connectivity:** Ensure the device is successfully connected to the WARP client.
-- **Logs:** Review Gateway logs for specific policy match reasons.
-
 ## Resources
 
 - [Cloudflare Zero Trust Dashboard](https://one.dash.cloudflare.com)
@@ -146,6 +119,3 @@ warp-cli connect
 
 ---
 
-**Ready to start?** Begin with [Module 1: Zero Trust Setup](./docs/01-zerotrust-setup.md)
-
-⭐ If this workshop helped you, please give it a star!
