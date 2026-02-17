@@ -29,7 +29,7 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 
 ## Architecture Overview
 
-```text
+```
 ┌─────────────────┐
 │   Employees     │
 │  (Any Device)   │
@@ -61,7 +61,7 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
          ├─── ✅ Approved AI (Isolated)
          └─── ❌ Blocked AI Services
 
-```text
+```
 
 ## Detailed Learning Path
 
