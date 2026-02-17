@@ -8,25 +8,6 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 - **Data Loss Prevention (DLP)**
 - **Cloudflare Browser Isolation (RBI)**
 
-## What You'll Build
-
-- **Lab 1:** Setup Zero Trust environment and connect devices
-- **Lab 2:** Configure Gateway policies to block unauthorized AI services
-- **Lab 3:** Implement Data Loss Prevention (DLP) for AI tools
-- **Lab 4:** Setup monitoring, alerts, and analytics
-- **Lab 5:** Secure access via Remote Browser Isolation (RBI)
-
-## Workshop Modules
-
-| Module | Lab |
-|--------|-----|
-| 1 | [Zero Trust Setup](./docs/01-zerotrust-setup.md) |
-| 2 | [Block AI Services](./docs/02-block-ai-services.md) |
-| 3 | [Data Loss Prevention](./docs/03-dlp-policies.md) |
-| 4 | [Monitoring & Analytics](./docs/04-monitoring.md) |
-| 5 | [Approved AI Access (RBI)](./docs/05-approved-access.md) |
-
-
 ## Architecture Overview
 
 ```
@@ -62,6 +43,24 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
          └─── ❌ Blocked AI Services
 
 ```
+
+## What You'll Build
+
+- **Lab 1:** Setup Zero Trust environment and connect devices
+- **Lab 2:** Configure Gateway policies to block unauthorized AI services
+- **Lab 3:** Implement Data Loss Prevention (DLP) for AI tools
+- **Lab 4:** Setup monitoring, alerts, and analytics
+- **Lab 5:** Secure access via Remote Browser Isolation (RBI)
+
+## Workshop Modules
+
+| Module | Lab |
+|--------|-----|
+| 1 | [Zero Trust Setup](./docs/01-zerotrust-setup.md) |
+| 2 | [Block AI Services](./docs/02-block-ai-services.md) |
+| 3 | [Data Loss Prevention](./docs/03-dlp-policies.md) |
+| 4 | [Monitoring & Analytics](./docs/04-monitoring.md) |
+| 5 | [Approved AI Access (RBI)](./docs/05-approved-access.md) |
 
 ## Detailed Learning Path
 
