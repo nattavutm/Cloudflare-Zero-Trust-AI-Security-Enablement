@@ -40,27 +40,27 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 ┌────────▼────────────────────────┐
 │   Cloudflare Zero Trust         │
 │                                 │
-│  ┌───────────────────────────┐ │
-│  │  Identity & Context       │ │
-│  │  - Identity Provider (IdP) │ │
-│  │  - Device Posture Checks  │ │
-│  └───────────────────────────┘ │
+│  ┌───────────────────────────┐  │
+│  │  Identity & Context       │  │
+│  │  - Identity Provider (IdP)│  │
+│  │  - Device Posture Checks  │  │
+│  └───────────────────────────┘  │
 │                                 │
-│  ┌───────────────────────────┐ │
-│  │  Secure Web Gateway (SWG) │ │
-│  │  - Application Control    │ │
-│  │  - DLP Scanning           │ │
-│  │  - Browser Isolation      │ │
-│  └───────────────────────────┘ │
+│  ┌───────────────────────────┐  │
+│  │  Secure Web Gateway (SWG) │  │
+│  │  - Application Control    │  │
+│  │  - DLP Scanning           │  │
+│  │  - Browser Isolation      │  │
+│  └───────────────────────────┘  │
 │                                 │
-│  ┌───────────────────────────┐ │
-│  │  Analytics & Logging      │ │
-│  └───────────────────────────┘ │
+│  ┌───────────────────────────┐  │
+│  │  Analytics & Logging      │  │
+│  └───────────────────────────┘  │
 └─────────────────────────────────┘
          │
          ├─── ✅ Approved AI (Isolated)
          └─── ❌ Blocked AI Services
-```
+
 
 
 ## Detailed Learning Path
