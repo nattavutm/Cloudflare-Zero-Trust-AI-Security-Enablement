@@ -94,20 +94,7 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 ### Module 5: CASB
 - [Integrate CASB with OpenAI and Anthropic](./docs/06-casb-ai-integrations.md)
 
-## Troubleshooting
 
-### WARP Client Connectivity
-```bash
-# Check current WARP status
-warp-cli status
-
-# Reset registration if needed
-warp-cli registration delete
-warp-cli registration new
-
-# Connect to the Zero Trust fabric
-warp-cli connect
-```
 
 ## Resources
 
