@@ -46,11 +46,11 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 
 ## What You'll Build
 
-- **Lab 1:** Setup Zero Trust environment and connect devices
-- **Lab 2:** Configure Gateway policies to block unauthorized AI services
-- **Lab 3:** Implement Data Loss Prevention (DLP) for AI tools
-- **Lab 4:** Setup monitoring, alerts, and analytics
-- **Lab 5:** Secure access via Remote Browser Isolation (RBI)
+- **Module 1:** Initialize a Cloudflare Zero Trust environment, configure your org and auth, and onboard devices with WARP
+- **Module 2:** Use Secure Web Gateway to discover and block unapproved AI applications and protect AI prompts
+- **Module 3:** Build Data Loss Prevention (DLP) policies to protect sensitive data in AI interactions
+- **Module 4:** Provide secure, approved AI access with Cloudflare Browser Isolation (RBI)
+- **Module 5:** Use CASB integrations with OpenAI and Anthropic to continuously monitor AI SaaS posture
 
 ## Workshop Modules
 
@@ -59,40 +59,41 @@ Hands-on lab workshop: Deploy Cloudflare Zero Trust to protect employees from un
 | 1 | [Zero Trust Setup](./docs/01-zerotrust-setup.md) |
 | 2 | [Block AI Services](./docs/02-block-ai-services.md) |
 | 3 | [Data Loss Prevention](./docs/03-dlp-policies.md) |
-| 4 | [Monitoring & Analytics](./docs/04-monitoring.md) |
-| 5 | [Approved AI Access (RBI)](./docs/05-approved-access.md) |
+| 4 | [Approved AI Access with RBI](./docs/05-approved-access.md) |
+| 5 | [CASB for OpenAI & Anthropic](./docs/06-casb-ai-integrations.md) |
+
+> Optional: [Monitoring & Analytics](./docs/04-monitoring.md) for Gateway and DLP visibility.
 
 ## Detailed Learning Path
 
 ### Module 1: Zero Trust Setup
-- Initialize Cloudflare Zero Trust
-- Configure organization and authentication settings
-- Deploy and connect the WARP client
-- Verify device connectivity and enrollment
+- [Initialize Cloudflare Zero Trust](./docs/01-zerotrust-setup.md)
+- [Configure organization and authentication settings](./docs/01-zerotrust-setup.md)
+- [Deploy and connect the WARP client](./docs/01-zerotrust-setup.md)
+- [Verify device connectivity and enrollment](./docs/01-zerotrust-setup.md)
 
 ### Module 2: Block AI Services
-- Create HTTP filtering policies
-- Configure granular application-based blocking
-- Implement domain-based restrictions
-- Test blocking rules and view real-time logs
+- [Create HTTP filtering policies](./docs/02-block-ai-services.md)
+- [Test blocking rules](./docs/02-block-ai-services.md)
+- [AI prompt protection for web-based AI apps](./docs/02-block-ai-services.md)
+- [Gateway HTTP redirects + Workers block pages](./docs/02-block-ai-services.md)
 
 ### Module 3: Data Loss Prevention
-- Create and customize DLP profiles
-- Configure sensitive data patterns (PII, Financial, etc.)
-- Apply DLP scanning to AI service uploads
-- Review and mitigate DLP violations
+- [Create and customize DLP profiles](./docs/03-dlp-policies.md)
+- [Configure sensitive data patterns (PII, Financial, etc.)](./docs/03-dlp-policies.md)
+- [Apply DLP scanning to AI service uploads](./docs/03-dlp-policies.md)
+- [Prompt topics](./docs/03-dlp-policies.md)
+- [Detection entries – Exact Data Match (EDM)](./docs/03-dlp-policies.md)
+- [Detection entries – Custom Wordlists (CWL)](./docs/03-dlp-policies.md)
 
-### Module 4: Monitoring & Analytics
-- Explore Gateway Analytics dashboards
-- Create custom reports for AI usage
-- Setup automated notifications (Email/Webhooks)
-- (Optional) Export logs to a SIEM
+### Module 4: Approved AI Access with RBI
+- [Define allowlist policies for approved AI tools](./docs/05-approved-access.md)
+- [Configure Cloudflare Remote Browser Isolation (RBI)](./docs/05-approved-access.md)
+- [Implement identity-based and time-based access](./docs/05-approved-access.md)
+- [Verify the secure isolation environment](./docs/05-approved-access.md)
 
-### Module 5: Approved AI Access with RBI
-- Define allowlist policies for approved AI tools
-- Configure Cloudflare Remote Browser Isolation (RBI)
-- Implement identity-based and time-based access
-- Verify the secure isolation environment
+### Module 5: CASB
+- [Integrate CASB with OpenAI and Anthropic](./docs/06-casb-ai-integrations.md)
 
 ## Troubleshooting
 
