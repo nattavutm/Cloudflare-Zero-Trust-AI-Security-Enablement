@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Full Name: Somchai Prasert
+\f1\fs24 \
+
+\f0\fs26 Email: somchai.prasert@example.com
+\f1\fs24 \
+
+\f0\fs26 Phone: +66 81 234 5678
+\f1\fs24 \
+
+\f0\fs26 Thai National ID: 1103701234567
+\f1\fs24 \
+
+\f0\fs26 Passport: AB1234567
+\f1\fs24 \
+
+\f0\fs26 Date of Birth: 1992-04-18
+\f1\fs24 \
+
+\f0\fs26 Home Address: 99/12 Rama 9 Rd Bangkok 10310
+\f1\fs24 \
+
+\f0\fs26 Driver License: BKK-99887766
+\f1\fs24 \
+
+\f0\fs26 IP Address: 203.150.12.45
+\f1\fs24 \
+
+\f0\fs26 Emergency Contact: +66 89 777 8888
+\f1\fs24 \
+}
